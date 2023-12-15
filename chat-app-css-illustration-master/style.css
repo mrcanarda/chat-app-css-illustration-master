@@ -1,0 +1,158 @@
+:root {
+  --Pale-Violet: hsl(276, 100%, 81%);
+  --Moderate-Violet: hsl(276, 55%, 52%);
+  --Desaturated-Dark-Violet: hsl(271, 15%, 43%);
+  --Grayish-Blue: hsl(206, 6%, 79%);
+  --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+  --Dark-Grayish-Violet: hsl(270, 7%, 64%);
+}
+
+/*
+font-family: 'Rubik', sans-serif;
+400 500 700
+*/
+
+/*****************
+******* PAGE LEFT **
+******************/
+
+.bckgr__ {
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  height: 40rem;
+  width: 22rem;
+  background-image: linear-gradient(
+    var(--Moderate-Violet),
+    var(--Very-Dark-Desaturated-Violet)
+  );
+}
+
+/*****************
+******* PAGE RIGHT **
+******************/
+
+.exp {
+  margin-top: 10rem;
+}
+
+/*****************
+******* PAGE HEADER **
+******************/
+
+.header__ {
+  color: var(--Very-Dark-Desaturated-Violet);
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+/*****************
+* PAGE PARAGRAPH **
+******************/
+
+.exp__parag {
+  color: var(--Dark-Grayish-Violet);
+  font-family: "Rubik", sans-serif;
+  width: 50%;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.left__contact > img {
+  width: 2rem;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+}
+
+/*****************
+* PHONE PICTURE **
+******************/
+
+.front__cam {
+  background-color: #fff;
+  width: 9rem;
+  height: 1.4rem;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  top: -1%;
+}
+
+.contact__ {
+  background-image: linear-gradient(
+    var(--Moderate-Violet),
+    var(--Very-Dark-Desaturated-Violet)
+  );
+  padding-top: 1rem;
+  width: 17rem;
+  height: 4rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+.right__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.6rem;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+
+.right__contact__ {
+  font-weight: 400;
+  color: var(--Dark-Grayish-Violet);
+}
+span {
+  color: #fff;
+}
+
+.not__message__one {
+  background-color: var(--Pale-Violet);
+  border-radius: 10px;
+  font-size: 0.6rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  color: var(--Moderate-Violet);
+  font-family: "Rubik", sans-serif;
+}
+
+.not__message__two {
+  background-color: var(--Pale-Violet);
+  color: var(--Moderate-Violet);
+  border-radius: 10px;
+  font-size: 0.6rem;
+  padding: 0.6rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.sended__parag {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  width: 10rem;
+  margin-left: 6.8rem;
+  margin-top: 1rem;
+  font-size: 0.6rem;
+  font-family: "Rubik", sans-serif;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.sended__parag__ {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  font-size: 0.6rem;
+  width: 7rem;
+  margin-left: 9.8rem;
+  font-family: "Rubik", sans-serif;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.minute__parag {
+  font-size: 0.5rem;
+}
